@@ -179,7 +179,7 @@ Example Response
 {
   "predicted_RUL": 202.45
 }
-'''markdown
+```markdown
 ---
 
 ## 🛠️ How to Run the Project Locally
