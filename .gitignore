@@ -1,0 +1,58 @@
+# -------------------------
+# JUPYTER NOTEBOOK ARTIFACTS
+# -------------------------
+.ipynb_checkpoints/
+.virtual_documents/
+
+# -------------------------
+# PYTHON CACHE FILES
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# ANACONDA / ENVIRONMENT FILES
+# -------------------------
+anaconda_projects/
+.env/
+.conda/
+venv/
+env/
+
+# -------------------------
+# OS-SPECIFIC FILES
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE / EDITOR FILES
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# DATA FILES TO EXCLUDE
+# -------------------------
+data/raw/
+*.zip
+*.tar
+*.tar.gz
+
+# Allow processed data (small files)
+!data/processed/
+
+# -------------------------
+# MODEL FILES (OPTIONAL)
+# -------------------------
+# If you want to keep models out of GitHub, uncomment these:
+# models/*.pkl
+# models/*.joblib
+
+# -------------------------
+# LOGS
+# -------------------------
+*.log
+logs/
