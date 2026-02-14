@@ -141,11 +141,16 @@ Shows strong correlation between predicted and true RUL.
 The model is deployed using FastAPI with a `/predict` endpoint.
 
 ### **Run the API**
+```
 python -m uvicorn api.main:app --reload
+```
 
 ### **Interactive Docs**
 Open in browser:
-http://127.0.0.1:8000/docs (127.0.0.1 in Bing)
+```
+http://127.0.0.1:8000/docs
+```
+ (127.0.0.1 in Bing)
 
 ---
 
@@ -192,7 +197,11 @@ git clone https://github.com/yourusername/predictive-maintenance-cmapss.git
 ```
 
 ### 2. Install dependencies
+```
 pip install -r requirements.txt
+```
 
 ### 3. Run the API
+```
 python -m uvicorn api.main:app --reload
+```
