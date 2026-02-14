@@ -150,7 +150,6 @@ Open in browser:
 ```
 http://127.0.0.1:8000/docs
 ```
- (127.0.0.1 in Bing)
 
 ---
 
@@ -193,7 +192,7 @@ http://127.0.0.1:8000/docs
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/predictive-maintenance-cmapss.git
+git clone https://github.com/JaronHarness/predictive-maintenance-cmapss.git
 ```
 
 ### 2. Install dependencies
