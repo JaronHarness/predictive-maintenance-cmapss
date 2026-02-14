@@ -179,54 +179,16 @@ Example Response
 {
   "predicted_RUL": 202.45
 }
-
 ---
 
-🛠️ How to Run the Project Locally
-1. Clone the repo
+## 🛠️ How to Run the Project Locally
+
+### 1. Clone the repo
+```bash
 git clone https://github.com/yourusername/predictive-maintenance-cmapss.git
 
-2. Install dependencies
+### 2. Install dependencies
 pip install -r requirements.txt
 
-3. Run the API
+### 3. Run the API
 python -m uvicorn api.main:app --reload
-
----
-
-🛰️ Business Impact
-
-This system demonstrates real‑world predictive maintenance capabilities:
-
-* Reduces unplanned downtime
-
-* Improves mission readiness
-
-* Extends engine life
-
-* Supports condition‑based maintenance (CBM)
-
-* Enables safer, more reliable aerospace operations
-
----
-
-🔮 Future Improvements
-
-* Add LSTM or GRU deep learning models
-
-* Add Streamlit dashboard for visualization
-
-* Add Docker containerization
-
-* Add CI/CD with GitHub Actions
-
-* Add multi‑fault and multi‑condition datasets (FD002–FD004)
-
-* Add feature engineering pipeline inside the API
-
----
-
-📌 Author
-Jaron Harness
-Predictive Maintenance & Machine Learning Engineer
-Crowley, Texas
