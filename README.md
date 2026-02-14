@@ -175,11 +175,13 @@ http://127.0.0.1:8000/docs (127.0.0.1 in Bing)
   "sensor_20": 39.00,
   "sensor_21": 23.00
 }
-Example Response
+```
+### Example Response:
+```json
 {
   "predicted_RUL": 202.45
 }
-```markdown
+```
 ---
 
 ## 🛠️ How to Run the Project Locally
@@ -187,6 +189,7 @@ Example Response
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/yourusername/predictive-maintenance-cmapss.git
+```
 
 ### 2. Install dependencies
 pip install -r requirements.txt
