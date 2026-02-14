@@ -79,8 +79,9 @@ predictive-maintenance-cmapss/
 │   └── predict.py
 │
 ├── models/
-│   ├── final_model.pkl
-│   └── feature_columns.json
+│   (model artifacts not included due to size limits)
+|    Note: The trained model file is not included due to GitHub’s 100 MB limit.
+|         Users may train the model using the provided notebooks.
 │
 ├── data/
 │   ├── raw/
@@ -191,7 +192,7 @@ http://127.0.0.1:8000/docs
 ## 🛠️ How to Run the Project Locally
 
 ### 1. Clone the repo
-```bash
+```
 git clone https://github.com/JaronHarness/predictive-maintenance-cmapss.git
 ```
 
